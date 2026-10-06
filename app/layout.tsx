@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Michael — Junior Software Engineer",
+  title: "Michael —  Software Engineer",
   description:
-    "Michael is a junior software engineer building full-stack websites, applications, and systems with React, Next.js, TypeScript, Java, and Python.",
+    "Michael is a software engineer building full-stack websites, applications, and systems with React, Next.js, TypeScript, Java, and Python.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
